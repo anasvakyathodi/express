@@ -176,7 +176,7 @@ font-family: 'Merienda', cursive;
 }
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   .banner-area{
-    min-height: 80vh;
+    min-height: 100vh;
   }
   .banner-area h1{
     font-size: 4rem;
@@ -222,4 +222,19 @@ ul.about-content{
   line-height: 1.5;
   text-align: left;
   padding-left: 0;
+}
+.section-title{
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.about-right h2{
+  margin-bottom: 3%;
+}
+.about-btn{
+  padding: 15px 35px;
+  background: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color:#fff;
 }
