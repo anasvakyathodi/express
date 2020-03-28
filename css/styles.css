@@ -17,6 +17,7 @@ a{
   cursor: pointer;
   color:inherit;
 }
+
 header{
   position: absolute;
   top: 0;
@@ -53,7 +54,9 @@ header nav li:first-child{
 header nav li:last-child{
   margin-right: 0;
 }
-
+header nav li a:hover{
+  color: crimson;
+}
 @media(max-width:1000px){
   header{
     padding: 20px 50px;
@@ -162,7 +165,9 @@ font-family: 'Merienda', cursive;
   border-radius: 50px;
   text-transform: uppercase;
 }
-
+a.banner-btn:hover{
+  background-color: darkred;
+}
 @media (max-width:800px) {
     .banner-area{
       min-height: 600px;
@@ -240,6 +245,9 @@ ul.about-content{
   border-radius: 50px;
   text-transform: uppercase;
   color:#fff;
+}
+a.abt-btn:hover{
+  background-color: darkred;
 }
 @media (max-width: 1000px) {
   .about-left,.about-right{
